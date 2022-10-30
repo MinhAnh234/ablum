@@ -57,23 +57,44 @@ svg {
 #tab-courters ul li{
     margin: 0;
     padding: 0;
+    line-height: 60px;
     width: 48.5%;
+    height: 60px;
     background-color: rgb(240, 240, 240);
     display: inline-block;
     font-family: "Proxima Nova","Verdana","Avenir Next";
     border: 1px solid #abb3b9;
-    border-radius: 4px;
+    border-radius: 41px;
 }
 .active {
   background-color: #282A35!important;
   color: white!important;
   box-shadow: 0 2px 0 0 rgba(255, 99, 71, 0.3) ;
 }
+.menu {
+  display:inline-block;
+  background-color: #f4f6f8;
+  height:150px;
+  margin: 153.5px 2px;
+  width:40px;
+  border-radius:8px;
+}
 img {
+  float: left;
   object-fit: cover;
-  width:95%;
-  height:auto;
-  margin: 30px auto;
+  width:84%;
+  height:437px;
+  max-height: 437px;
+  margin: 30px 0px 30px 10px;
+  border-radius: 2%;
+}
+.love, .download, .zoom {
+  display:inline-block;
+  background-color: rgba(22, 24, 35, .09);
+  border-radius: 50%;
+  width: 30px ;
+  height: 30px;
+  margin: 10px auto;
 }
 
 
